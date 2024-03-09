@@ -1,9 +1,18 @@
-import React from 'react';
+import {React} from "react";
+
+import SignupPage from "./pages/Signup.jsx";
+import SigninPage from "./pages/Signin.jsx";
+
+
 
 function App() {
+  
+
+
   return (
     <div className="App">
-      <h1>Hello, World!</h1>
+      <SignupPage/>
+      <SigninPage/>
     </div>
   );
 }
