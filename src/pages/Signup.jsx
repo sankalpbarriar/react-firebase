@@ -40,6 +40,7 @@ function SignupPage() {
   <button onClick={createUser} className="bg-white text-teal-500 border border-teal-500 rounded-md px-4 py-2 hover:bg-teal-500 hover:text-white transition-colors duration-300 ease-in-out">
     Signup
   </button>
+  
 </div>
 
   );
