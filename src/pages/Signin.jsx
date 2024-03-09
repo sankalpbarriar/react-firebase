@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { app } from "../firebase";
+import { Link } from "react-router-dom";
 
 
 const auth = getAuth(app);
@@ -46,7 +47,7 @@ const SigninPage=()=> {
       >
         Sign in
       </button>
-      <a className="text-center font-bold p-2 text-blue-400" href="/signup">Dont have an account?</a>
+      <Link className="text-center font-bold p-2 text-blue-400" to="/signup">Dont have an account?</Link>
     </div>
   );
 }
